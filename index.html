@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,152 +8,205 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-tgdd.png">
     <title>TPV - THẾ GIỚI DI ĐỘNG</title>
 </head>
 <body>
     <header><img src="images/head.webp" alt="header-thegioididong"></header>
     <nav>
         <div class="container">
-            <ul>
-            <li>
-                <a href="#!"><img class="logo" src="images/thegioididong.png" alt="logo-thegioididong"></a>
-            </li>
-            <li id="address-form">
-                <a href="#!">Xem giá, khuyến mãi tại<br><span>Hồ Chí Minh</span><i class="fa-solid fa-sort-down"></i></a>
-            </li>
-            <li>
-                <input type="text" placeholder="Bạn đang tìm gì..."><i class="fa-solid fa-magnifying-glass"></i>
-            </li>
-            <li>
-                <a href="#!"><button><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</button></a>
-            </li>
-            <li>
-                <a href="#!">Lịch sử<br>đơn hàng</a>
-            </li>
-            <li>
-                <a href="#!"><span class="btn-content"><span class="btn-top"></span></span>Mobifone trả sau đến hạn thanh<br>toán. Mua thẻ ngay!</a>
-            </li>
-            <li>
-                <a href="#!">24h<br>Công nghệ</a>
-            </li>
-            <li>
-                <a href="#!">Hỏi Đáp</a>
-            </li>
-            <li>
-                <a href="#!">Game App</a>
-            </li>
-                <div class="address-form">
-                    <div class="address-form-content">
-                        <h2>Chọn địa chỉ nhận hàng <span id="address-close">X Đóng</span></h2>
-                        <form action="">
-                            <p>Chọn đầy đủ địa chỉ nhận hàng để biết chính xác thời gian giao</p>
-                            <select name="" id="">
-                                <option value="#">Chọn địa điểm</option>
-                                <option value="">Hồ Chí Minh</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="#">Vui lòng chọn Quận/Huyện</option>
-                                <option value="">Hồ Chí Minh</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="#">Vui lòng chọn Phường/Xã</option>
-                                <option value="">Hồ Chí Minh</option>
-                            </select>
-                            <input type="text" placeholder="Số nhà, tên đường (không bắt buộc)">
-                            <button>XÁC NHẬN</button>
-                        </form>
-                    </div>
-                </div>
+                    <ul>
+    <li>
+        <a href="#!">
+            <img class="logo" src="images/thegioididong.png" alt="logo-thegioididong">
+        </a>
+    </li>
 
-        </ul>
+    <li id="address-form">
+        <a href="#!">
+            Xem giá, khuyến mãi tại<br>
+            <span>Hồ Chí Minh</span>
+            <i class="fa-solid fa-sort-down"></i>
+        </a>
+    </li>
+
+    <li>
+        <input type="text" placeholder="Bạn đang tìm gì...">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </li>
+
+    <li>
+        <a href="#!">
+            <button>
+                <i class="fa-solid fa-cart-shopping"></i>
+                Giỏ hàng
+            </button>
+        </a>
+    </li>
+
+    <li>
+        <a href="#!">
+            Lịch sử<br>đơn hàng
+        </a>
+    </li>
+
+    <li>
+        <a href="#!">
+            <span class="btn-content">
+                <span class="btn-top"></span>
+            </span>
+            Mobifone trả sau đến hạn thanh<br>
+            toán. Mua thẻ ngay!
+        </a>
+    </li>
+
+    <li>
+        <a href="#!">
+            24h<br>Công nghệ
+        </a>
+    </li>
+
+    <li>
+        <a href="#!">Hỏi Đáp</a>
+    </li>
+
+    <li>
+        <a href="#!">Game App</a>
+    </li>
+</ul>
+
+
+<!-- Form chọn địa chỉ -->
+    <div class="address-form">
+        <div class="address-form-content">
+
+            <h2>
+                Chọn địa chỉ nhận hàng
+                <span id="address-close">X Đóng</span>
+            </h2>
+
+            <form action="">
+                <p>
+                    Chọn đầy đủ địa chỉ nhận hàng để biết chính xác thời gian giao
+                </p>
+
+                <select name="">
+                    <option value="#">Chọn địa điểm</option>
+                    <option value="">Hồ Chí Minh</option>
+                </select>
+
+                <select name="">
+                    <option value="#">Vui lòng chọn Quận/Huyện</option>
+                    <option value="">Hồ Chí Minh</option>
+                </select>
+
+                <select name="">
+                    <option value="#">Vui lòng chọn Phường/Xã</option>
+                    <option value="">Hồ Chí Minh</option>
+                </select>
+
+                <input
+                    type="text"
+                    placeholder="Số nhà, tên đường (không bắt buộc)"
+                >
+
+                <button>XÁC NHẬN</button>
+            </form>
+
         </div>
-    </nav>
-    <section class="menu-bar">
-        <div class="container">
-            <ul>
-                <li>
-                    <a href="#!"><i class="fa-solid fa-mobile-screen-button"></i>Điện thoại</a>
-                </li>
-                <li>
-                    <a href="#!"><i class="fa-solid fa-laptop"></i>Laptop</a>
-                </li>
-                <li>
-                    <a href="#!"><i class="fa-solid fa-tablet-screen-button"></i>Table<i class="fa-solid fa-sort-down"></i>
-                    <div class="sub-menu">
-                        <ul>
-                            <li><a href="#!">Máy tính bảng</a></li>
-                            <li><a href="#!">Máy đọc sách</a></li>
-                        </ul>
-                    </div></a>
-                </li>
-                <li>
-                    <a href="#!"><i class="fa-regular fa-headphones"></i>Phụ kiện<i class="fa-solid fa-sort-down"></i></a>
-                    <div class="sub-menu">
-                        <ul>
-                            <li><a href="#!">Sạc dự phòng</a></li>
-                            <li><a href="#!">Sạc, cáp</a></li>
-                            <li><a href="#!">Ốp lưng điện thoại</a></li>
-                            <li><a href="#!">Miếng dán</a></li>
-                            <li><a href="#!">Hub, cáp chuyển đổi</a></li>
-                            <li><a href="#!">Dây đeo điện thoại</a></li>
-                            <li><a href="#!">Loa</a></li>
-                            <li><a href="#!">Ổ cứng</a></li>
-                            <li><a href="#!">Thẻ nhớ</a></li>
-                            <li><a href="#!">Camera giám sát</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="#!"><i class="fa-solid fa-clock"></i>Đồng hồ thông minh<i class="fa-solid fa-sort-down"></i></a>
-                </li>
-                <li>
-                    <a href="#!"><i class="fa-brands fa-square-letterboxd"></i>Đồng hồ thời trang</a>
-                </li>
-                <li>
-                    <a href="#!"><i class="fa-brands fa-square-letterboxd"></i>Đồng hồ thời trang</a>
-                </li>
-                <li>
-                    <a href="#!"><i class="fa-solid fa-computer"></i>PC, máy in</a>
-                </li>
-                <li>
-                    <a href="#!">Máy cũ giá rẻ<i class="fa-solid fa-sort-down"></i></a>
-                    <div class="sub-menu">
-                        <ul>
-                            <li><a href="#!">Máy tính cũ giá tốt</a></li>
-                            <li><a href="#!">Thu cũ đổi mới</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="#!">Sim, Thẻ cào<i class="fa-solid fa-sort-down"></i></a>
-                    <div class="sub-menu">
-                        <ul>
-                            <li><a href="#!">Sim, thẻ cào</a></li>
-                            <li><a href="#!">eSim du lịch</a></li>
-                        </ul>
-                    </div>                    
-                </li>
-                <li>
-                    <a href="#!">Trả góp, điện nước</a>
-                </li>
-            </ul>
-        </div>
+    </div>
+            </div>
+        </nav>
+        <section class="menu-bar">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#!"><i class="fa-solid fa-mobile-screen-button"></i>Điện thoại</a>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="fa-solid fa-laptop"></i>Laptop</a>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="fa-solid fa-tablet-screen-button"></i>Table<i class="fa-solid fa-sort-down"></i></a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="#!">Máy tính bảng</a></li>
+                                <li><a href="#!">Máy đọc sách</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="fa-regular fa-headphones"></i>Phụ kiện<i class="fa-solid fa-sort-down"></i></a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="#!">Sạc dự phòng</a></li>
+                                <li><a href="#!">Sạc, cáp</a></li>
+                                <li><a href="#!">Ốp lưng điện thoại</a></li>
+                                <li><a href="#!">Miếng dán</a></li>
+                                <li><a href="#!">Hub, cáp chuyển đổi</a></li>
+                                <li><a href="#!">Dây đeo điện thoại</a></li>
+                                <li><a href="#!">Loa</a></li>
+                                <li><a href="#!">Ổ cứng</a></li>
+                                <li><a href="#!">Thẻ nhớ</a></li>
+                                <li><a href="#!">Camera giám sát</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="fa-solid fa-clock"></i>Đồng hồ thông minh</a>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="fa-brands fa-square-letterboxd"></i>Đồng hồ thời trang</a>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="fa-solid fa-computer"></i>PC, máy in</a>
+                    </li>
+                    <li>
+                        <a href="#!">Máy cũ giá rẻ<i class="fa-solid fa-sort-down"></i></a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="#!">Máy tính cũ giá tốt</a></li>
+                                <li><a href="#!">Thu cũ đổi mới</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#!">Sim, Thẻ cào<i class="fa-solid fa-sort-down"></i></a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="#!">Sim, thẻ cào</a></li>
+                                <li><a href="#!">eSim du lịch</a></li>
+                            </ul>
+                        </div>                    
+                    </li>
+                    <li>
+                        <a href="#!">Trả góp, điện nước</a>
+                    </li>
+                </ul>
+            </div>
     </section>
     <!-- -----------------------------Slider--------------------------->
      <section class="slider">
         <div class="container">
             <div class="slider-content">
-                <div class="slider-content-left">
+                <div class="slider-content-left-container">
                     <div class="slider-content-left-top">
-                        <img src="images/section.webp" alt="">
-                        <!-- <img src="images/section1.webp" alt=""> -->
+                        <a href="#!"><img src="images/section.webp" alt=""></a>
+                        <a href="#!"><img src="images/section1.webp" alt=""></a>
+                        <a href="#!"><img src="images/section2.jpg" alt=""></a>
+                        <a href="#!"><img src="images/section3.jpg" alt=""></a>
+                        <a href="#!"><img src="images/section4.jpg" alt=""></a>
+                    </div>
+                    <div class="btn-slider-content-left">
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <i class="fa-solid fa-chevron-right"></i>
                     </div>
                     <div class="slider-content-left-bottom">
                         <li class="active">Sắm Vivo Y72 5G<br>Giảm ngay 400 ngàn</li>
-                        <li class="active">Apple watch S6<br>Đồng giảm sốc 15%</li>
-                        <li class="active">Laptop tựu trường<br>Ưu đãi x3</li>
-                        <li class="active">Đồng hồ thời gian <br>Giảm đến 45%</li>
-                        <li class="active">Sắm phụ kiện<br>Giảm đến 45%</li>
+                        <li>Apple watch S6<br>Đồng giảm sốc 15%</li>
+                        <li>Laptop tựu trường<br>Ưu đãi x3</li>
+                        <li>Đồng hồ thời gian <br>Giảm đến 45%</li>
+                        <li>Sắm phụ kiện<br>Giảm đến 45%</li>
                     </div>
                 </div>
                 <div class="slider-content-right">
@@ -165,6 +218,405 @@
             </div>
         </div>
      </section>
+     <section class="banner-one">
+        <div class="container">
+            <img src="images/oppo.webp" alt="">
+        </div>
+     </section>
+     <!-- --------------------slider-product-one--------------------->
+      <section class="slider-product-one">
+        <div class="container">
+            <div class="slider-product-one-content">
+                <div class="slider-product-one-content-tittle">
+                    <h2>Săn Sale Online Mỗi Ngày</h2>
+                </div>
+                <div class="slider-product-one-content-items">
+                    <div class="slider-product-one-content-child">
+                        <img src="images/1.webp" alt="">
+                        <div class="slider-product-one-content-child-text">
+                            <li><p>Đặt trước đến ngày 16/09</p></li>
+                            <li>Samsung Galaxy Z Flip3 5G 128GB</li>
+                            <li>Hàng sắp về</li>
+                            <li>24.990.000<sup>đ</sup></li>
+                            <li>Tặng PMH 2 triệu, Trả góp 0% đến 24 tháng</li>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-content-child">
+                        <img src="images/2.webp" alt="">
+                        <div class="slider-product-one-content-child-text">
+                            <li><img src="images/icon1.webp" alt=""><p>Trợ giá mùa dịch</p></li>
+                            <li>Iphone 12 Pro Max 128GB</li>
+                            <li>Online giá rẻ</li>
+                            <li><span>32.990.000</span><sup>đ</sup>&nbsp;-6%</li>
+                            <li>30.990.000 <sup>đ</sup></li>
+                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>&nbsp;
+                                <span>112</span>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-content-child">
+                        <img src="images/3.jpg" alt="">
+                        <div class="slider-product-one-content-child-text">
+                            <li><img src="images/icon1.webp" alt=""><p>Trợ giá mùa dịch</p></li>
+                            <li>OPPO  Reno6 5G</li>
+                            <li>12.000.000 <sup>đ</sup></li>
+                            <li>Quà 500.000 <sup>đ</sup></li>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-content-child">
+                        <img src="images/4.webp" alt="">
+                        <div class="slider-product-one-content-child-text">
+                            <li><img src="images/icon1.webp" alt=""><p>Trợ giá mùa dịch</p></li>
+                            <li>Samsung Galaxy Note 20</li>
+                            <li><span>23.990.000</span><sup>đ</sup>&nbsp;-37%</li>
+                            <li>14.990.000 <sup>đ</sup></li>
+                            <li>Quà 300.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>&nbsp;
+                                <span>107</span>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-content-child">
+                        <img src="images/5.webp" alt="">
+                        <div class="slider-product-one-content-child-text">
+                            <li><img src="images/icon1.webp" alt=""><p>Trợ giá mùa dịch</p></li>
+                            <li>Realme 8</li>
+                            <li>7.290.000 <sup>đ</sup></li>
+                            <li>Giá rẻ: 7.120.000<sup>đ</sup></li>
+                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>&nbsp;
+                                <span>65</span>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- --------------------slider-product-two--------------------->
+
+      <section class="slider-product-two">
+        <div class="container">
+            <div class="slider-product-two-content">
+                <div class="slider-product-two-content-tittle">
+                    <h2>ĐIỆN THOẠI NỔI BẬT NHẤT</h2>
+                    <ul>
+                        <li><a href="#!">Samsung Galaxy A71</a></li>
+                        <li><a href="#!">Iphone 12 Pro Max 128GB</a></li>
+                        <li><a href="#!">Oppo Reno6 5G</a></li>
+                        <li><a href="#!">Xem thêm 187 Điện thoại</a></li>
+                    </ul>
+                </div>
+                <div class="slider-product-two-content-items">
+                    <div class="slider-product-two-content-child">
+                    <img src="images/6.webp" alt="">
+                    <div class="slider-product-two-content-child-text">
+                        <li><p>Đặt trước đến ngày 16/09</p></li>
+                        <li>Samsung Galaxy Z Fold3 5G 256GB</li>
+                        <li>Hàng sắp về</li>
+                        <li><span>41.990.000</span><sup>đ</sup></li>
+                        <li>Tặng PMH 2 triệu, Bao da kèm S Pen, Gói đặc quyền cao cấp</li>
+                    </div>
+                </div>
+                
+                <div class="slider-product-two-content-child">
+                    <img src="images/7.webp" alt="">
+                    <div class="slider-product-two-content-child-text">
+                        <li><img src="images/icon1.webp" alt=""><p>Trợ giá mùa dịch</p></li>
+                        <li>iPhone 12 64GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><span>22.990.000</span><sup>đ</sup>&nbsp;-10%</li>
+                        <li>20.490.000<sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>&nbsp;
+                            <span>68</span>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="slider-product-two-content-child">
+                    <img src="images/8.webp" alt="">
+                    <div class="slider-product-two-content-child-text">
+                        <li><img src="images/icon1.webp" alt=""><p>Trợ giá mùa dịch</p></li>
+                        <li>Xiaomi Mi 11 Lite</li>
+                        <li><span>7.990.000</span><sup>đ</sup>&nbsp;-5%</li>
+                        <li>7.590.000<sup>đ</sup></li>
+                        <li>Quà 300.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>&nbsp;
+                            <span>515</span>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="slider-product-two-content-child">
+                    <img src="images/9.webp" alt="">
+                    <div class="slider-product-two-content-child-text">
+                        <li><img src="images/icon1.webp" alt=""><p>Trợ giá mùa dịch</p></li>
+                        <li>Vivo Y12s (4GB/128GB)</li>
+                        <li><span>4.290.000</span><sup>đ</sup>&nbsp;-11%</li>
+                        <li>3.790.000<sup>đ</sup></li>
+                        <li>Quà 200.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>&nbsp;
+                            <span>65</span>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="slider-product-two-content-child">
+                    <img src="images/p1.webp" alt="">
+                    <div class="slider-product-two-content-child-text">
+                        <li><img src="images/icon1.webp" alt=""><p>Trợ giá mùa dịch</p></li>
+                        <li>OPPO Reno6 Z 5G</li>
+                        <li>9.490.000<sup>đ</sup></li>
+                        <li>Quà 300.000 <sup>đ</sup></li>
+                    </div>
+                </div>
+
+                <div class="slider-product-two-content-child">
+                    <img src="images/p2.webp" alt="">
+                    <div class="slider-product-two-content-child-text">
+                        <li><img src="images/icon1.webp" alt=""><p>Trợ giá mùa dịch</p></li>
+                        <li>Samsung Galaxy A52 5G</li>
+                        <li>10.990.000<sup>đ</sup></li>
+                        <li>Quà 300.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>&nbsp;
+                            <span>205</span>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="slider-product-two-content-child">
+                    <img src="images/p3.webp" alt="">
+                    <div class="slider-product-two-content-child-text">
+                        <li><img src="images/icon1.webp" alt=""><p>Trợ giá mùa dịch</p></li>
+                        <li>Vivo Y53s</li>
+                        <li>6.990.000<sup>đ</sup></li>
+                        <li>Quà 300.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>&nbsp;
+                            <span>15</span>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="slider-product-two-content-child">
+                    <img src="images/p4.webp" alt="">
+                    <div class="slider-product-two-content-child-text">
+                        <li>Realme C21Y 4GB</li>
+                        <li>Online giá rẻ</li>
+                        <li><span>3.990.000</span><sup>đ</sup>&nbsp;-7%</li>
+                        <li>3.690.000<sup>đ</sup></li>
+                        <li>Quà 200.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>&nbsp;
+                            <span>45</span>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="slider-product-two-content-child">
+                    <img src="images/p5.webp" alt="">
+                    <div class="slider-product-two-content-child-text">
+                        <li>Xiaomi Redmi Note 10 5G 8GB</li>
+                        <li>5.990.000<sup>đ</sup></li>
+                        <li>Quà 300.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>&nbsp;
+                            <span>274</span>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="slider-product-two-content-child">
+                    <img src="images/p6.webp" alt="">
+                    <div class="slider-product-two-content-child-text">
+                        <li><img src="images/icon1.webp" alt=""><p>Trợ giá mùa dịch</p></li>
+                        <li>Vsmart Star 5 (4GB/64GB)</li>
+                        <li><span>3.290.000</span><sup>đ</sup>&nbsp;-15%</li>
+                        <li>2.790.000<sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>&nbsp;
+                            <span>28</span>
+                        </li>
+                    </div>
+                </div>
+                </div>
+            </div>
+                </div>
+      </section>
+      <!-- ---------------Product-Gallery-------------------- -->
+       <section class="product-gallety">
+        <div class="sticky-left">
+            <img src="images/sticky1.webp" alt="">
+        </div>
+        <div class="container">
+            <div class="product-gallety-content">
+                <div class="product-gallety-content-left">
+                    <img src="images/watch-00.jpg" alt="">
+                </div>
+                <div class="product-gallety-content-right">
+                    <div class="product-gallety-content-right-top">
+                        <ul>
+                            <li class="active">Đồng hồ thông minh</li>
+                            <li>Đồng hồ thời trang nam</li>
+                            <li>Đồng hồ thời trang nữ</li>
+                            <li>Đồng hồ thời trang trẻ em</li>
+                            <li><a href="#!">Xem tất cả 157 đồng hồ thông minh</a>&nbsp;<i class="fa-solid fa-caret-right"></i></li>
+                        </ul>
+                    </div>
+                    <div class="product-gallety-content-right-bottom">
+                        <div class="product-gallety-content-right-bottom-items">
+                            <img src="images/watch-1.jpg" alt="">
+                            <div class="product-gallety-content-right-bottom-items-text">
+                                <ul>
+                                    <li>Đặt trước đến 16/09</li>
+                                    <li>Samsung Galaxy Watch 4 LTE Classic 46mm</li>
+                                    <li>Đo nồng độ oxy (SpO2)</li>
+                                    <li>Có nghe gọi</li>
+                                    <li>Hàng sắp về</li>
+                                    <li>9.990.000<sup>đ</sup></li>
+                                    <li>Tặng ưu đãi khủng trị giá đến 2.690.000<sup>đ</sup></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-gallety-content-right-bottom-items">
+                            <img src="images/watch-3.jpg" alt="">
+                            <div class="product-gallety-content-right-bottom-items-text">
+                                <ul>
+                                    <li>Apple Watch SE 44mm viền nhôm dây cao su hồng</li>
+                                    <li>Có nghe gọi</li>
+                                    <li>Online giá rẻ</li>
+                                    <li><span>9.990.000</span><sup>đ</sup>-24%</li>
+                                    <li>7.592.000<sup>đ</sup></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-gallety-content-right-bottom-items">
+                            <img src="images/watch-6.jpg" alt="">
+                            <div class="product-gallety-content-right-bottom-items-text">
+                                <ul>
+                                    <li>Đặt trước đến 16/09</li>
+                                    <li>Samsung Galaxy Watch 4 Classic 46mm</li>
+                                    <li>Đo nồng độ oxy (SpO2)</li>
+                                    <li>Có nghe gọi</li>
+                                    <li>Hàng sắp về</li>
+                                    <li>8.990.000<sup>đ</sup></li>
+                                    <li>Tặng ưu đãi khủng trị giá đến 2.690.000<sup>đ</sup></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-gallety-content-right-bottom-items">
+                            <img src="images/watch-2.jpg" alt="">
+                            <div class="product-gallety-content-right-bottom-items-text">
+                                <ul>
+                                    <li>Đồng hồ thông minh BeU B2 Đen</li>
+                                    <li><span>690.000</span><sup>đ</sup>-30%</li>
+                                    <li>483.000<sup>đ</sup></li>
+                                    <li>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i> &nbsp;
+                                        <span>17</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-right">
+            <img src="images/sticky2.webp" alt="">
+        </div>
+       </section>
+       <section class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="footer-top-item">
+                        <p>Tổng đài hỗ trợ</p>
+                        <p>Gọi mua:&nbsp;&nbsp;<span><a href="#!">1900 232 460</a></span> (8:00 - 21:30)</p>
+                        <p>Khiếu nại:&nbsp;&nbsp;<span><a href="#!">1900 1062</a></span> (8:00 - 21:30)</p>
+                        <p>Hỗ trợ kỹ thuật & Bảo hành:&nbsp;&nbsp;<span><a href="#!">1900 232 464</a></span> (8:00 - 21:00)</p>
+                    </div>
+                    <div class="footer-top-item">
+                        <p>Về công ty</p>
+                        <p><a href="#!">Giới thiệu công ty (DMX.vn)</a></p>
+                        <p><a href="#!">Tuyển dụng</a></p>
+                        <p><a href="#!">Gửi góp ý, khiếu nại</a></p>
+                        <p><a href="#!">Tìm siêu thị (2982 shop)</a></p>
+                    </div>
+                    <div class="footer-top-item">
+                        <p>Thông tin khác</p>
+                        <p><a href="#!">Tích điểm Quà tặng VIP</a></p>
+                        <p><a href="#!">Lịch sử mua hàng</a></p>
+                        <p><a href="#!">Bán hàng doanh nghiệp</a></p>
+                        <p><a href="#!">Phiếu mua hàng</a></p>
+                        <p><a href="#!">Xem thêm &nbsp;<i class="fa-solid fa-angle-down"></i></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 2018. Công Ty Cổ Phần Đầu Tư Điện Máy Xanh. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007. GPMXH: 21/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 11/01/2021.
+                Địa chỉ: 128 Trần Quang Khải, P.Tân Định, TP. Hồ Chí Minh. Địa chỉ liên hệ và gửi chứng từ: Lô T2-1.2, Đường D1, P.Tăng Nhơn Phú, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: hotrotmdt@thegioididong.com.
+                Chịu trách nhiệm nội dung: Huỳnh Văn Tốt. Đại diện ủy quyền giải quyết các vấn đề liên quan bảo vệ quyền lợi người tiêu dùng: Huỳnh Văn Tốt. Email: hotrotmdt@thegioididong.com.
+                <a href="#!">Xem chính sách sử dụng</a>
+            </div>
+       </section>
     <script src="scrip.js"></script>
 </body>
 </html>
